@@ -1,6 +1,5 @@
 const delFunc = (itemCard => itemCard.remove())
 
-
 const Cards = (card, delFunc) => {
     const cardTemplate = document.querySelector('#card-template').content
     const cardList = document.querySelector('.places__list');
